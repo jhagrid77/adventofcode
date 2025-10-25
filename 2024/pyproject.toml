@@ -1,0 +1,24 @@
+[dependency-groups]
+dev = [
+    "basedpyright>=1.31.3",
+    "ruff>=0.12.10",
+]
+
+[tool.basedpyright]
+typeCheckingMode = "recommended"
+reportAny = "hint"
+reportExplicitAny = "hint"
+
+[tool.ruff]
+extend-exclude = ["third_party"]
+indent-width = 2
+line-length = 120
+
+[tool.ruff.format]
+indent-style = "space"
+line-ending = "lf"
+quote-style = "single"
+skip-magic-trailing-comma = false
+
+[tool.ruff.lint]
+typing-extensions = true

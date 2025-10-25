@@ -1,0 +1,32 @@
+{
+  "command_ran": "python3 ./solution.py -f ../input",
+  "real_time_spent": 0.10,
+  "main_memory_swaps": 0,
+  "cpu_metrics": {
+    "cpu_time_in_userspace": 0.06,
+    "cpu_time_in_kernelspace": 0.04,
+    "cpu_percentage_received": "101%"
+  },
+  "memory_metrics": {
+    "average_shared_text": 0,
+    "average_unshared_data": 0,
+    "average_unshared_stack": 0,
+    "average_total_usage": 0,
+    "average_residental_memory": 0,
+    "max_residental_memory": 11008
+  },
+  "io_metrics": {
+    "filesystem_inputs": 0,
+    "filesystem_output": 8,
+    "socket_messages_received": 0,
+    "socket_messages_sent": 0
+  },
+  "page_faults": {
+    "major": 0,
+    "minor": 6897
+  },
+  "context_switching": {
+    "involuntarily": 4,
+    "voluntarily": 69
+  }
+}
